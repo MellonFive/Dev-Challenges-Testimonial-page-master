@@ -21,6 +21,7 @@ header > .div-image {
   background-color: var(--yellow);
   
   display: flex;
+
   width: 5rem;
   height: 5rem;
   
@@ -46,14 +47,13 @@ section.lists {
 section.lists > ul > .list {
   display: flex;
   align-items: center;
+  gap: 1rem;
 
   color: var(--dark-gray);
   
   font-size: 1.3rem;
   
   margin: 2rem 0;
-
-  gap: 1rem;
 }
 
 section.clients > .square {
