@@ -1,9 +1,92 @@
 body {
-  max-width: 35.5rem;
+  background-color: var(--light-white);
+
+  font-family: "Sora", sans-serif;
+
+  max-width: 40rem;
   width: 100%;
+
   margin: 0 auto;
 
   display: flex;
-  height: 100vh;
   align-items: center;
+  height: 100vh;
 }
+
+main {
+  padding: 0 3rem;
+}
+
+header > .div-image {
+  background-color: var(--yellow);
+  
+  display: flex;
+  width: 5rem;
+  height: 5rem;
+  
+  border-radius: 100%;
+
+  padding: .8rem;
+}
+
+header > .title {
+  margin: 1.5rem 0;
+}
+
+header > .description {
+  color: var(--dark-gray);
+  line-height: 3rem;
+  width: 95%;
+}
+
+section.lists {
+  margin: 2rem 0;
+}
+
+section.lists > ul > .list {
+  display: flex;
+  align-items: center;
+
+  color: var(--dark-gray);
+  
+  font-size: 1.3rem;
+  
+  margin: 2rem 0;
+
+  gap: 1rem;
+}
+
+section.clients > .square {
+  background-color: var(--white);
+  
+  margin-bottom: 2rem;
+  padding: 2rem 3rem;
+
+  border-radius: 1rem;
+
+}
+
+section.clients > .square > .info > .company-and-stars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+section.clients > .square > .info > .informations {
+  margin-top: 2rem;
+}
+
+section.clients > .square > .info > .informations > .name {
+  font-size: 1.7rem;
+}
+
+section.clients > .square > .info > .informations > .description {
+  line-height: 3rem;
+  margin-top: .5rem;
+  color: var(--dark-gray);
+}
+
+section.clients > .square.-second {
+  margin-bottom: 0;
+}
+
