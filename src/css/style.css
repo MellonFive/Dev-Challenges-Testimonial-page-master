@@ -35,9 +35,11 @@ header > .title {
 }
 
 header > .description {
-  color: var(--dark-gray);
-  line-height: 3rem;
   width: 95%;
+  
+  color: var(--dark-gray);
+
+  line-height: 3rem;
 }
 
 section.lists {
@@ -82,8 +84,11 @@ section.clients > .square > .info > .informations > .name {
 
 section.clients > .square > .info > .informations > .description {
   line-height: 3rem;
+
   margin-top: .5rem;
+
   color: var(--dark-gray);
+
 }
 
 section.clients > .square.-second {
