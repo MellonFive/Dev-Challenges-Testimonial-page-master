@@ -36,6 +36,8 @@ header > .title {
 
 header > .description {
   width: 95%;
+
+  font-size: 1.7rem;
   
   color: var(--dark-gray);
 
@@ -65,7 +67,10 @@ section.clients > .square {
   padding: 2rem 3rem;
 
   border-radius: 1rem;
+}
 
+section.clients > .square.-second {
+  margin-bottom: 0;
 }
 
 section.clients > .square > .info > .company-and-stars {
@@ -75,7 +80,7 @@ section.clients > .square > .info > .company-and-stars {
 }
 
 section.clients > .square > .info > .informations {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 section.clients > .square > .info > .informations > .name {
@@ -83,15 +88,20 @@ section.clients > .square > .info > .informations > .name {
 }
 
 section.clients > .square > .info > .informations > .description {
-  line-height: 3rem;
+  line-height: 2.5rem;
 
   margin-top: .5rem;
 
   color: var(--dark-gray);
-
 }
 
-section.clients > .square.-second {
-  margin-bottom: 0;
+section.clients > .square > .info > .informations > .description.-first {
+  font-size: 1.4rem;
+}
+
+section.clients > .square > .info > .informations > .description.-second {
+  width: 90%;
+
+  font-size: 1.4rem;
 }
 
