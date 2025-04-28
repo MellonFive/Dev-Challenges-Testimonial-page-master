@@ -34,7 +34,15 @@
   }
 
   .container > section.lists > ul > .list {
-    margin: .5rem 0;
+    margin: 1rem 0;
+  }
+
+  .container > section.lists > ul > .list.-first {
+    margin: 0;
+  }
+
+  .container > section.lists > ul > .list.-last {
+    margin-bottom: 0;
   }
 
   .container > section.lists > ul > .list > .description {
