@@ -2,39 +2,63 @@
   main {
     max-width: 120rem;
   }
-}
 
-.container {
+  .container {
     display: grid;
-    grid-template-areas: 
-    "header clients"
-    "lists clients";
+    grid-template-areas:
+      "header clients"
+      "lists clients";
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-}
+  }
 
-.container > header {
+  .container > header {
     grid-area: header;
-}
+  }
 
-.container > header > .title {
+  .container > header > .title {
     font-size: 4rem;
-}
+  }
 
-.container > header > .description {
+  .container > header > .description {
     font-size: 1.9rem;
-}
+  }
 
-.container > section.lists {
+  .container > section.lists {
     grid-area: lists;
 
     margin: 0;
-}
+  }
 
-.container > section.lists > ul > .list > .description {
+  section.lists > ul > .list {
+    margin: 1rem 0;
+  }
+
+  .container > section.lists > ul > .list > .description {
     font-size: 1.5rem;
-}
+  }
 
-.container > section.clients {
+  .container > section.clients {
     grid-area: clients;
+
+    position: relative;
+  }
+
+  .container > section.clients > .square {
+    width: 60%;
+  }
+
+  .container > section.clients > .square.-first {
+    position: absolute;
+    left: 40%;
+  }
+
+  .container > section.clients > .square.-first > .info > .informations > .description.-first {
+    width: 90%;
+  }
+
+  .container > section.clients > .square.-second {
+    position: absolute;
+    top: 61%;
+  }
 }
