@@ -9,7 +9,6 @@
       "header clients"
       "lists clients";
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
   }
 
   .container > header {
@@ -30,7 +29,7 @@
     margin: 0;
   }
 
-  section.lists > ul > .list {
+  .container > section.lists > ul > .list {
     margin: 1rem 0;
   }
 
