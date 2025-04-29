@@ -20,7 +20,7 @@ main {
   padding: 0 3rem;
 }
 
-header > .div-image {
+.container > header > .div-image {
   background-color: var(--yellow);
   
   display: flex;
@@ -33,11 +33,11 @@ header > .div-image {
   padding: .8rem;
 }
 
-header > .title {
+.container > header > .title {
   margin: 1.5rem 0;
 }
 
-header > .description {
+.container > header > .description {
   width: 95%;
 
   font-size: 1.7rem;
@@ -47,11 +47,11 @@ header > .description {
   line-height: 3rem;
 }
 
-section.lists {
+.container > section.lists {
   margin: 2rem 0;
 }
 
-section.lists > ul > .list {
+.container > section.lists > ul > .list {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -63,7 +63,7 @@ section.lists > ul > .list {
   margin: 2rem 0;
 }
 
-section.clients > .square {
+.container > section.clients > .square {
   background-color: var(--white);
   
   margin-bottom: 2rem;
@@ -72,25 +72,25 @@ section.clients > .square {
   border-radius: 1.5rem;
 }
 
-section.clients > .square.-second {
+.container > section.clients > .square.-second {
   margin-bottom: 0;
 }
 
-section.clients > .square > .info > .company-and-stars {
+.container > section.clients > .square > .info > .company-and-stars {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-section.clients > .square > .info > .informations {
+.container > section.clients > .square > .info > .informations {
   margin-top: 1.5rem;
 }
 
-section.clients > .square > .info > .informations > .name {
+.container > section.clients > .square > .info > .informations > .name {
   font-size: 1.6rem;
 }
 
-section.clients > .square > .info > .informations > .description {
+.container > section.clients > .square > .info > .informations > .description {
   line-height: 2.5rem;
 
   margin-top: .5rem;
@@ -98,11 +98,11 @@ section.clients > .square > .info > .informations > .description {
   color: var(--dark-gray);
 }
 
-section.clients > .square > .info > .informations > .description.-first {
+.container > section.clients > .square > .info > .informations > .description.-first {
   font-size: 1.4rem;
 }
 
-section.clients > .square > .info > .informations > .description.-second {
+.container > section.clients > .square > .info > .informations > .description.-second {
   width: 90%;
 
   font-size: 1.4rem;
