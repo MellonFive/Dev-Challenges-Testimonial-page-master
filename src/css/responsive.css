@@ -1,4 +1,26 @@
-@media (min-width: 1024px) {
+@media (min-width: 412px) and (max-width: 1349px) {
+  main {
+    max-width: 90rem;
+  }
+
+  .container > header > .title {
+    font-size: 4.5rem;
+  }
+
+  .container > header > .description {
+    font-size: 1.7rem;
+  }
+
+  .container > section.lists > ul > .list > .description {
+    font-size: 1.5rem;
+  }
+
+  .container > section.clients {
+    background-color: red;
+  }
+}
+
+@media (min-width: 1350px) {
   main {
     max-width: 120rem;
 
