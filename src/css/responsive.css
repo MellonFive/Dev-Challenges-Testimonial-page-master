@@ -25,23 +25,29 @@
 
   .container > section.clients {
     position: relative;
+
+    height: 40vh;
   }
 
   .container > section.clients > .square {
     margin-bottom: 0;
+
+    width: 40%;
   }
 
   .container > section.clients > .square.-first {
-    width: 40%;
-    
     position: absolute;
     left: 50%;
   }
 
   .container > section.clients > .square.-second {
     position: absolute;
-        
-    width: 40%;
+    top: 55%;
+    left: 25%;
+  }
+
+  .container > section.clients > .square > .info > .informations > .description.-second {
+    width: 85%;
   }
 }
 
