@@ -1,14 +1,22 @@
 @media (min-width: 412px) and (max-width: 1349px) {
   main {
     max-width: 90rem;
+
+    padding: 0;
+    height: 80vh;
   }
 
   .container > header > .title {
     font-size: 4.5rem;
+    margin: 1rem 0;
   }
 
   .container > header > .description {
     font-size: 1.7rem;
+  }
+
+  .container > section.lists > ul > .list {
+    margin: 1rem 0;
   }
 
   .container > section.lists > ul > .list > .description {
@@ -16,7 +24,24 @@
   }
 
   .container > section.clients {
-    background-color: red;
+    position: relative;
+  }
+
+  .container > section.clients > .square {
+    margin-bottom: 0;
+  }
+
+  .container > section.clients > .square.-first {
+    width: 40%;
+    
+    position: absolute;
+    left: 50%;
+  }
+
+  .container > section.clients > .square.-second {
+    position: absolute;
+        
+    width: 40%;
   }
 }
 
