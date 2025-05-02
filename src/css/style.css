@@ -31,6 +31,12 @@ main {
   border-radius: 100%;
 
   padding: .8rem;
+
+  transition: .3s;
+}
+
+.container > header > .div-image:hover {
+  transform: scale(1.7);
 }
 
 .container > header > .title {
@@ -63,6 +69,14 @@ main {
   margin: 2rem 0;
 }
 
+.container > section.lists > ul > .list > img {
+  transition: .3s;
+}
+
+.container > section.lists > ul > .list > img:hover {
+  transform: scale(1.7);
+}
+
 .container > section.clients > .square {
   background-color: var(--white);
   
@@ -80,6 +94,14 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.container > section.clients > .square > .info > .company-and-stars > .stars > img {
+  transition: .3s;
+}
+
+.container > section.clients > .square > .info > .company-and-stars > .stars > img:hover {
+  transform: scale(1.7);
 }
 
 .container > section.clients > .square > .info > .informations {
