@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src=".github/preview.png">
+  <img src=".github/Preview.png">
 </p>
 
 <br>
