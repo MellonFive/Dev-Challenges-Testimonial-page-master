@@ -3,11 +3,13 @@
     max-width: 90rem;
 
     padding: 0;
+
     height: 70vh;
   }
 
   .container > header > .title {
     font-size: 4.5rem;
+    
     margin: 1rem 0;
   }
 
