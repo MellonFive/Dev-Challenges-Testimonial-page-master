@@ -74,7 +74,7 @@ main {
 }
 
 .container > section.lists > ul > .list > img:hover {
-  transform: scale(1.7);
+  transform: scale(2);
 }
 
 .container > section.clients > .square {
