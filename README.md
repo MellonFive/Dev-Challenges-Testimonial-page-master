@@ -14,7 +14,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML CSS(Flex e Grid)
+- HTML CSS(Flex)
 - Git Github
 
 ## 💻 Projeto
@@ -40,7 +40,4 @@ Serve para colocar em prática conhecimentos em Front-End.
 
 ## Conclusão
 
-Primeiro projeto que faço com Grid CSS 😃!!!
-
-Aplicando grid em meus projetos para colocar em prática meus conhecimentos.
-Devo dizer que grid é fácil de aprender. Só preciso ter mais foco na hora de aplicar nos projetos.
+Desafio na responsivade e na hora de posicionar os elementos HTML.
