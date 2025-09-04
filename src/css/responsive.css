@@ -1,3 +1,5 @@
+/* Refatorar o responsivo */
+
 @media (min-width: 450px) and (max-width: 1349px) {
   main {
     max-width: 90rem;
