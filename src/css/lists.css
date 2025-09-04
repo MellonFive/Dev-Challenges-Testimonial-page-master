@@ -1,0 +1,23 @@
+.container > section.lists {
+  margin: 2rem 0;
+}
+
+.container > section.lists > ul > .list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  color: var(--dark-gray);
+  
+  font-size: 1.3rem;
+  
+  margin: 2rem 0;
+}
+
+.container > section.lists > ul > .list > img {
+  transition: .3s;
+}
+
+.container > section.lists > ul > .list > img:hover {
+  transform: scale(2);
+}

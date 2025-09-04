@@ -1,0 +1,53 @@
+.container > section.clients > .square {
+  background-color: var(--white);
+  
+  margin-bottom: 2rem;
+  padding: 2rem 3rem;
+
+  border-radius: 1rem;
+}
+
+.container > section.clients > .square.-second {
+  margin-bottom: 0;
+}
+
+.container > section.clients > .square > .info > .company-and-stars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container > section.clients > .square > .info > .company-and-stars > .stars > img {
+  transition: .3s;
+}
+
+.container > section.clients > .square > .info > .company-and-stars > .stars > img:hover {
+  transform: scale(1.7);
+}
+
+.container > section.clients > .square > .info > .informations {
+  margin-top: 1.5rem;
+}
+
+.container > section.clients > .square > .info > .informations > .name {
+  font-size: 1.6rem;
+}
+
+.container > section.clients > .square > .info > .informations > .description {
+  line-height: 2.5rem;
+
+  margin-top: .5rem;
+
+  color: var(--dark-gray);
+}
+
+.container > section.clients > .square > .info > .informations > .description.-first {
+  font-size: 1.4rem;
+}
+
+.container > section.clients > .square > .info > .informations > .description.-second {
+  width: 90%;
+
+  font-size: 1.4rem;
+}
+

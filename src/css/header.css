@@ -1,0 +1,32 @@
+.container > header > .div-image {
+  background-color: var(--yellow);
+  
+  display: flex;
+
+  width: 5rem;
+  height: 5rem;
+  
+  border-radius: 100%;
+
+  padding: .8rem;
+
+  transition: .3s;
+}
+
+.container > header > .div-image:hover {
+  transform: scale(1.7);
+}
+
+.container > header > .title {
+  margin: 1.5rem 0;
+}
+
+.container > header > .description {
+  width: 95%;
+
+  font-size: 1.7rem;
+  
+  color: var(--dark-gray);
+
+  line-height: 3rem;
+}
