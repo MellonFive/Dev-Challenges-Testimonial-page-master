@@ -44,8 +44,8 @@
 
   .container > section.clients > .square.-second {
     position: absolute;
-    top: 55%;
-    left: 25%;
+    top: 80%;
+    left: 10%;
   }
 
   .container > section.clients > .square > .info > .informations > .description.-second {
