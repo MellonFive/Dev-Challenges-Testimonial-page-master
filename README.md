@@ -14,7 +14,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML CSS(Flex)
+- HTML CSS(Flex e Grid)
 - Git Github
 
 ## 💻 Projeto
@@ -39,5 +39,7 @@ Serve para colocar em prática conhecimentos em Front-End.
 </div>
 
 ## Conclusão
+
+Primeiro projeto que faço usando grid css!!! 😃
 
 Desafio na responsivade e na hora de posicionar os elementos HTML.
