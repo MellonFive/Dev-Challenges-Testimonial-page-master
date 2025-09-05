@@ -1,4 +1,5 @@
 /* Refatorar o responsivo */
+/* Lembrando que apliquei mobile first  */
 
 @media (min-width: 450px) and (max-width: 1349px) {
   main {
